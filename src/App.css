@@ -1,38 +1,227 @@
-.App {
+body {
+  font-family: 'Catamaran', sans-serif;
+  letter-spacing: 0.3px;
+}
+
+.left {
+  width: 50%;
+  height: 100%;
+  float: left;
+  text-align: center;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.right {
+  width: 50%;
+  float: right;
+}
+
+.left-bg {
+  background: url(./profile-img.jpg) center center no-repeat;
+  opacity: 0.85;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.left-inner {
+  padding: 50px;
+}
+
+.info {
+  /* color: #efefef; */
+  color: #495759;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.info h2 {
+  font-size: 1.5em;
+  margin: 20px 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.info h3{
+  margin: 20px 0 30px 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.social-link a {
+  text-decoration: none;
+  /* color: #33B6BC; */
+  color: #697d80;
+  margin: 0 15px;
+}
+
+.right-inner {
+  padding: 50px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.section {
+  display: flex;
+  flex-direction: row;
+  margin: 15px 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h4 {
+  width: 20%;
+  margin-top: 0;
+  margin-right: 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+  font-size: 14px;
+  background-color: #33B6BC;
+  background-image: -webkit-linear-gradient(45deg, #33B6BC 0%,#FE9E69 100%);
+  background-image: linear-gradient(45deg,#33B6BC 0%,#FE9E69 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.content {
+  width: 80%;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.intro {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.skill-category {
+  margin-bottom: 10px;
+}
+
+.skill-category strong {
+  font-weight: 700;
+}
+
+span {
+  font-weight: 300;
+  font-size: 15px;
+}
+
+.education-list {
+  margin-bottom: 20px;
+}
+
+.education-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.university {
+  margin-bottom: 5px;
+}
+
+.university strong {
+  font-weight: 700;
+}
+
+.university-location {
+  font-size: 15px;
+}
+
+.major {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.university-date {
+  font-style: italic;
+  font-size: 15px;
+}
+
+.major {
+  font-size: 15px;
+}
+
+.major p {
+  margin-bottom: 10px;
+}
+
+.major strong {
+  font-weight: 700;
+  font-style: italic;
+}
+
+.project-item {
+  margin-bottom: 20px;
+}
+
+.project-title a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.project-title {
+  margin-bottom: 5px;
+}
+
+.project-desc li {
+  line-height: 1.5;
+}
+
+.resume-link {
+  text-decoration: none;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 15px 0px;
+    background-color: #E8E7E2;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.resume-button {
+  font-weight: 700;
+  font-size: 16px;
+  text-transform: uppercase;
+  background-color: #33B6BC;
+  background-image: -webkit-linear-gradient(45deg, #33B6BC 0%,#FE9E69 100%);
+  background-image: linear-gradient(45deg,#33B6BC 0%,#FE9E69 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@media only screen and (max-width: 1000px)  {
+.left, .right {
+  width: 100%;
+  display: block;
+  position: static;
+}
+
+.left {
+  /* height: 1000px; */
+}
+
+.left-bg {
+  position: static;
+  object-fit: cover;
+  height: 1000px;
+}
+
 }
