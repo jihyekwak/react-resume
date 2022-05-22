@@ -63,8 +63,37 @@ body {
   margin: 0 15px;
 }
 
+.language-toggle {
+  /* background-color: #E8E7E2; */
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 5px;
+}
+
+.language-icon {
+  color: #697d80;
+}
+
+.language-button {
+  font-weight: 700;
+  padding: 5px;
+  text-transform: uppercase;
+  background-color: #33B6BC;
+  background-image: -webkit-linear-gradient(45deg, #33B6BC 0%,#FE9E69 100%);
+  background-image: linear-gradient(45deg,#33B6BC 0%,#FE9E69 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border: none;
+  background-color: white;
+}
+
+.language-button:hover {
+  cursor: pointer;
+}
+
 .right-inner {
-  padding: 50px;
+  padding: 40px 50px 50px 50px;
   display: flex;
   flex-direction: column;
 }

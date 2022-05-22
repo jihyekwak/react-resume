@@ -6,13 +6,20 @@ import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 
-const Profile = () => {
+const Profile = (props) => {
   return (
     <div className="left-bg">
         <div className='left-inner'>
             <div className="info">
+              {props.language === "korean"? (
+              <>
+                <h2>안녕하세요, 곽지혜입니다</h2>
+                <h3>풀스택 개발자 입니다</h3>
+              </>):(
+              <>
                 <h2>Hello, I'm Jihye Kwak</h2>
                 <h3>Full stack developer</h3>
+              </>)}
                 <div className='social-link'>
                     <a href="#">
                     <FontAwesomeIcon icon={ faGithub } size="2x" />
@@ -29,6 +36,8 @@ const Profile = () => {
                 </div>
             </div>
         </div>
+
+
         
     </div>
   )

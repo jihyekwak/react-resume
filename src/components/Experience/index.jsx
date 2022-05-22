@@ -1,6 +1,6 @@
 import React from "react";
 
-const Experience = () => {
+const Experience = (props) => {
   return (
     <div className="section">
       <h4>Experience</h4>
