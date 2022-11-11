@@ -21,16 +21,16 @@ const Profile = (props) => {
                 <h3>Full stack developer</h3>
               </>)}
                 <div className='social-link'>
-                    <a href="#">
+                    <a href="https://github.com/jihyekwak">
                     <FontAwesomeIcon icon={ faGithub } size="2x" />
                     </a>
-                    <a href="#">
+                    {/* <a href="#">
                     <FontAwesomeIcon icon={ faInstagram } size="2x"/>
-                    </a>
-                    <a href="#">
+                    </a> */}
+                    <a href="https://www.linkedin.com/in/jihye-kwak/">
                     <FontAwesomeIcon icon={ faLinkedin } size="2x" />
                     </a>
-                    <a href="#">
+                    <a href="mailto:jihyekwak53@gmail.com">
                     <FontAwesomeIcon icon={ faEnvelope } size="2x"/>
                     </a>
                 </div>
