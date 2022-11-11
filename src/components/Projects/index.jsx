@@ -64,8 +64,8 @@ const Projects = (props) => {
                     </div>
                     <div className="project-desc">
                         <ul>
-                            <li><p>Built learning quiz app for young age students, utilizing postgreSQL for database, Django rest framework for backend, React for frontend and Material UI. </p></li>
-                            <li><p>Adult user can sign up and login with JWT authentication and create student users. User can create, edit, and delete quizzes and questions for personlized learning.</p></li>
+                            <li><p>Built learning quiz platform for young age students, utilizing postgreSQL for database, Django rest framework for backend, and React for frontend and Material UI. </p></li>
+                            <li><p>Users can sign up and login with JWT authentication and create individual student user accounts. Users can create, edit, and delete quiz sets for individual or group learning.</p></li>
                         </ul>
                     </div>
                 </div>
@@ -75,8 +75,8 @@ const Projects = (props) => {
                     </div>
                     <div className="project-desc">
                         <ul>
-                            <li><p>Built travel planner, utilizing porstgreSQL for database and Django for backend and frontend. </p></li>
-                            <li><p>User can login and create travel planner with family and friends, the planner includes itineraries and checklists. And also user can leave comments, so that the users can share their plans and leave all memories.</p></li>
+                            <li><p>Built travel applications which primary feature includes information gathering and planning for a trip; utilizing porstgreSQL for database and Django for both backend and frontend. </p></li>
+                            <li><p>Users can login and create travel plans with families and friends. the planner can include an information bulletin, gerenating itineraries, and building checklists. In addition, users can leave comments so that they can share their plans with each other and be able to look back to their memories.</p></li>
                         </ul>
                     </div>
                 </div>
@@ -86,8 +86,8 @@ const Projects = (props) => {
                     </div>
                     <div className="project-desc">
                         <ul>
-                            <li><p>Built social media application, utilizing mongoDB for database, Express, Node.js for backend and React for frontend. </p></li>
-                            <li><p>The concept of the app is manifestation to the world for personal growth and share the ideas with other users. User can login with Google Oauth and create, edit, and delete posts, comments. And users can get proper advices from API service.</p></li>
+                            <li><p>Built social media application, utilizing mongoDB for database, Express and Node.js for backend, and React for frontend. </p></li>
+                            <li><p>The concept of the app is to express an indivduals personal growth journey and share their ideas with other users. Users can login with Google Oauth to create, edit, and delete posts, comments. Moreover, users can get proper advices from API services.</p></li>
                         </ul>
                     </div>
                 </div>
@@ -97,8 +97,8 @@ const Projects = (props) => {
                     </div>
                     <div className="project-desc">
                         <ul>
-                            <li><p>Built a full stack web application, utilizing mongoDB for database, Express, Node.js for backend and frontend. </p></li>
-                            <li><p>The concept of the app is social media application regarding food. User can login with Google Oauth and create, edit, and delete posts, tags, and comments with images.</p></li>
+                            <li><p>Built an end-to-end web application, utilizing mongoDB for database, and Express and Node.js for backend and frontend. </p></li>
+                            <li><p>This is a social media application concentrating in food. Users can login with Google Oauth to create, edit, and delete. They can leave posts, tags, and comments with images for themselves and other users.</p></li>
                         </ul>
                     </div>
                 </div>
